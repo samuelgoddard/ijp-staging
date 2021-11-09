@@ -117,9 +117,9 @@ export default function Home() {
             
           
             <section className="mt-auto self-end flex items-end w-full relative z-30 text-[18px] leading-[24px] md:text-[24px] md:leading-[27px] xl:text-[28px] xl:leading-[31px] tracking-tight">
-              <div className="overflow-hidden">
-                <m.div variants={revealDownDelay}>
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ijpowell" className="overflow-hidden relative text-left focus:border-none focus:outline-none group">
+              <div className="overflow-hidden relative">
+                <m.div variants={revealUpDelay}>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ijpowell" className="overflow-hidden relative text-left focus:border-none focus:outline-none group block">
                     <div className="md:group-hover:translate-y-[32px] md:group-focus:translate-y-[32px] transition-transform ease-in-out duration-500 w-full will-change">
                       <span className="hidden md:block absolute top-0 right-0 mt-[-32px] underline">Instagram</span>
                       <span className="block underline">Instagram</span>
@@ -128,7 +128,7 @@ export default function Home() {
                 </m.div>
               </div>
               <div className="overflow-hidden ml-auto relative">
-                <m.div variants={revealDownDelay}>
+                <m.div variants={revealUpDelay}>
                   <a href="mailto:isaac@40000ft.co.uk" className="overflow-hidden relative ml-auto text-left focus:border-none focus:outline-none group block pl-[22px] mb-[-2px]">
                     <div className="w-[13px] md:w-[16px] h-[13px] md:h-[16px] rounded-full bg-[#DB4623] absolute left-0 bottom-0 top-0 mt-[5px] md:mt-[7px]"></div>
                     <div className="md:group-hover:translate-y-[32px] md:group-focus:translate-y-[32px] transition-transform ease-in-out duration-500 w-full will-change">
