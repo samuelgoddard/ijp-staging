@@ -1,0 +1,11 @@
+body {
+  @apply font-sans antialiased text-black m-0 h-full bg-white;
+}
+
+.text-indent {
+  text-indent: 5%;
+}
+
+.will-change {
+  will-change: transform;
+}
