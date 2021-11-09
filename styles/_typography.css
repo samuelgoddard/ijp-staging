@@ -9,3 +9,13 @@ body {
 .will-change {
   will-change: transform;
 }
+
+.hyphens {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
+  text-align:justify;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}

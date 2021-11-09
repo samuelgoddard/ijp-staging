@@ -86,11 +86,11 @@ export default function Home() {
           <Div100vh className="flex flex-wrap p-4 md:p-5 text-[23px] leading-[27px] md:text-[24px] md:leading-[28px] xl:text-[31px] xl:leading-[35px] selection:bg-black selection:text-white">
             <header className="w-full flex flex-wrap items-start relative z-30">
 
-              <div className="overflow-hidden w-full max-w-[310px] text-[18px] leading-[24px] md:text-[18px] md:leading-[24px] xl:text-[18px] xl:leading-[24px] tracking-tight order-2 md:order-1">
+              <div className="overflow-hidden w-full max-w-[280px] text-[18px] leading-[24px] md:text-[18px] md:leading-[24px] xl:text-[18px] xl:leading-[24px] tracking-tight order-2 md:order-1 hyphens">
                 <m.div variants={fade}>
-                  <p className="mb-8">Living in Nottingham but working worldwide, I’ve spent the last five years collaborating with brands, agencies and some extremely talented individuals to create a variety of interactive websites and visual identities.</p>
+                  <p className="mb-6">Living in Nottingham but working worldwide, I’ve spent the last five years collaborating with brands, agencies and some extremely talented individuals to create a variety of interactive websites and visual identities.</p>
 
-                  <p className="mb-8">I’m particularly influenced by experimental typography, editorial print and minimalist architecture. I also run <a className="underline transition-colors ease-in-out duration-300 hover:text-[#DB4623] focus:text-[#DB4623]" target="_blank" rel="noreferrer noopener" href="https://shiftwalk.studio">ShiftWalk</a>, a purposefully small design &amp; build studio with <a className="underline transition-colors ease-in-out duration-300 hover:text-[#DB4623] focus:text-[#DB4623]" target="_blank" rel="noreferrer noopener" href="https://samgoddard.co.uk">Sam Goddard</a>.</p>
+                  <p className="mb-6">I’m particularly influenced by experimental typography, editorial print and minimalist architecture. I also run <a className="underline transition-colors ease-in-out duration-300 hover:text-[#DB4623] focus:text-[#DB4623]" target="_blank" rel="noreferrer noopener" href="https://shiftwalk.studio">ShiftWalk</a>, a purposefully small design &amp; build studio with <a className="underline transition-colors ease-in-out duration-300 hover:text-[#DB4623] focus:text-[#DB4623]" target="_blank" rel="noreferrer noopener" href="https://samgoddard.co.uk">Sam Goddard</a>.</p>
 
                   <p className="mb-0">To collaborate with me on a project, please feel free to shoot an email or reach out on any of the platforms below.</p>
                 </m.div>
